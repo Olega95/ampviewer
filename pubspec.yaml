@@ -1,0 +1,24 @@
+# See: https://dart.dev/tools/pub/pubspec
+name: model_viewer
+version: 0.8.1
+description: >-
+  A Flutter widget for rendering interactive 3D models in the glTF and GLB
+  formats.
+homepage: https://github.com/drydart/model_viewer.dart
+repository: https://github.com/drydart/model_viewer.dart
+issue_tracker: https://github.com/drydart/model_viewer.dart/issues
+documentation:
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^5.3.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+dependency_overrides:
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+flutter:
+  assets:
+    - etc/assets/template.html
+    - etc/assets/model-viewer.js
