@@ -235,7 +235,7 @@ class _AmpViewerState extends State<AmpViewer> {
           break;
 
         case '/model-viewer.js':
-          final code = await rootBundle.loadString('packages/model_viewer/etc/assets/amp-3d-gltf-0.1.js');
+          final code = await rootBundle.loadString('packages/model_viewer/etc/assets/model-viewer.js');
           response
             ..statusCode = HttpStatus.ok
             ..headers.add("Content-Type", "application/javascript;charset=UTF-8")
