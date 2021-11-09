@@ -1,5 +1,5 @@
 # See: https://dart.dev/tools/pub/pubspec
-name: model_viewer
+name: ampviewer
 version: 0.8.1
 description: >-
   A Flutter widget for rendering interactive 3D models in the glTF and GLB
@@ -21,4 +21,4 @@ environment:
 flutter:
   assets:
     - etc/assets/template.html
-    - etc/assets/model-viewer.js
+    - etc/assets/amp-3d-gltf-0.1.js

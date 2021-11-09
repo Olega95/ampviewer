@@ -8,6 +8,6 @@
 ///
 ///  * [modelviewer.dev](https://modelviewer.dev)
 ///    for the web component this widget embeds.
-library model_viewer;
+library ampviewer;
 
-export 'src/model_viewer.dart';
+export 'src/ampviewer.dart';
